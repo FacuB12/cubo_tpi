@@ -8,36 +8,36 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>cubo_tpi_bi.cube</Name>
-      <FullPath>cubo_tpi_bi.cube</FullPath>
+      <Name>TpiBi.cube</Name>
+      <FullPath>TpiBi.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>cubo_tpi_bi.partitions</Name>
-          <FullPath>cubo_tpi_bi.partitions</FullPath>
+          <Name>TpiBi.partitions</Name>
+          <FullPath>TpiBi.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Respuestas.dim</Name>
-      <FullPath>Respuestas.dim</FullPath>
+      <Name>Canales.dim</Name>
+      <FullPath>Canales.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Tiempo.dim</Name>
       <FullPath>Tiempo.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Clientes.dim</Name>
-      <FullPath>Clientes.dim</FullPath>
+      <Name>Respuestas.dim</Name>
+      <FullPath>Respuestas.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Lugares Transaccion.dim</Name>
       <FullPath>Lugares Transaccion.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Canales.dim</Name>
-      <FullPath>Canales.dim</FullPath>
+      <Name>Clientes.dim</Name>
+      <FullPath>Clientes.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Operaciones.dim</Name>
@@ -46,14 +46,14 @@
   </Dimensions>
   <DataSources>
     <ProjectItem>
-      <Name>tpi_bi.ds</Name>
-      <FullPath>tpi_bi.ds</FullPath>
+      <Name>TpiBi.ds</Name>
+      <FullPath>TpiBi.ds</FullPath>
     </ProjectItem>
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>vw_tpi_bi.dsv</Name>
-      <FullPath>vw_tpi_bi.dsv</FullPath>
+      <Name>TpiBi.dsv</Name>
+      <FullPath>TpiBi.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>
@@ -62,15 +62,15 @@
       <Options>
         <ConnectionMappings>
           <ConfigurationSetting>
-            <Id>tpi_bi</Id>
-            <Name>tpi_bi</Name>
+            <Id>TpiBi</Id>
+            <Name>TpiBi</Name>
             <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-ESRC2J8;Integrated Security=SSPI;Initial Catalog=tpi_bi</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
-            <Id>tpi_bi</Id>
-            <Name>tpi_bi</Name>
+            <Id>TpiBi</Id>
+            <Name>TpiBi</Name>
             <Value xsi:type="xsd:int">0</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>

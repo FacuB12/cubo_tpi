@@ -2,7 +2,7 @@
   <Database>
     <DataSources>
       <DataSource>
-        <ID>tpi_bi</ID>
+        <ID>TpiBi</ID>
         <ConnectionString>Provider=SQLNCLI11.1;Data Source=DESKTOP-ESRC2J8;Integrated Security=SSPI;Initial Catalog=tpi_bi</ConnectionString>
         <ImpersonationInfo>
           <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateServiceAccount</ImpersonationMode>
@@ -12,19 +12,19 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>Respuestas</ID>
+        <ID>Canales</ID>
       </Dimension>
       <Dimension>
         <ID>Tiempo</ID>
       </Dimension>
       <Dimension>
-        <ID>Clientes</ID>
+        <ID>Respuestas</ID>
       </Dimension>
       <Dimension>
         <ID>Lugares Transaccion</ID>
       </Dimension>
       <Dimension>
-        <ID>Canales</ID>
+        <ID>Clientes</ID>
       </Dimension>
       <Dimension>
         <ID>Operaciones</ID>
@@ -32,7 +32,7 @@
     </Dimensions>
     <Cubes>
       <Cube>
-        <ID>tpi_bi</ID>
+        <ID>TpiBi</ID>
         <MeasureGroups>
           <MeasureGroup>
             <ID>Transacciones</ID>

@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>Default</ProcessingOption>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -19,65 +19,65 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>Mtz9HaAgKw4GriideiV8nIjsJOI=30/05/2023 14:32:2830/05/2023 14:32:28</TimeStamp>
+        <TimeStamp>VKbtepn1xkTxEjEHJj8BFCbIyiM=05/06/2023 16:24:2105/06/2023 16:24:21</TimeStamp>
         <ID>
-          <String>tpi_bi</String>
+          <String>TpiBi</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>hboMQxgFYAm2+LB88ZfcPF17ASk=30/05/2023 16:09:1230/05/2023 14:34:03</TimeStamp>
+        <TimeStamp>TnQ31WYZB3lGDm/5t0wyKbNo0Ms=05/06/2023 16:25:2905/06/2023 16:25:20</TimeStamp>
         <ID>
-          <String>tpi_bi</String>
+          <String>Tpi Bi</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>RsU721h5LeUD3SfrXxKB7Xc42P4=30/05/2023 14:39:4930/05/2023 14:35:54</TimeStamp>
-        <ID>
-          <String>Respuestas</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>o8YQhGGCzJE4GnSZCxTs85Ybjt0=31/05/2023 22:04:5830/05/2023 14:35:54</TimeStamp>
-        <ID>
-          <String>Tiempo</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>n/oymOZJsk5Lh3DgWezaGSm3FpA=31/05/2023 22:05:5530/05/2023 14:35:54</TimeStamp>
-        <ID>
-          <String>Clientes</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>tfACLrqLnpIaU1gigFGG4AkVSmk=31/05/2023 22:05:2930/05/2023 14:35:54</TimeStamp>
-        <ID>
-          <String>Lugares Transaccion</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>xrrKJ1SI80pwLB5BDZlGLdwojpA=30/05/2023 14:40:3830/05/2023 14:35:54</TimeStamp>
+        <TimeStamp>UtTjeV1f//vngD4xMJYZXhaXvF8=05/06/2023 16:26:0105/06/2023 15:24:37</TimeStamp>
         <ID>
           <String>Canales</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Oz6wKGRNFIRyGq83p7/Lp6vahzw=30/05/2023 14:41:0530/05/2023 14:35:55</TimeStamp>
+        <TimeStamp>s6fqDVqhZfPTEzFNLBCQLLZQLQE=06/06/2023 15:11:1905/06/2023 15:24:37</TimeStamp>
+        <ID>
+          <String>Tiempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>KELDts+FT3R5utsD5fVEINX2wLc=05/06/2023 15:31:1205/06/2023 15:24:37</TimeStamp>
+        <ID>
+          <String>Respuestas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>G7+zs/pQi8h67kQxfL9swQD3xek=05/06/2023 15:51:1005/06/2023 15:24:37</TimeStamp>
+        <ID>
+          <String>Lugares Transaccion</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9JfB8pcR/pNMZWL5wrO1HjJuZWQ=05/06/2023 15:50:3805/06/2023 15:24:37</TimeStamp>
+        <ID>
+          <String>Clientes</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>txu7rFDXEyRiIoqmZ+5cehDaNoU=06/06/2023 15:11:0305/06/2023 15:24:37</TimeStamp>
         <ID>
           <String>Operaciones</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>qROl0nygbAIv7lUV2vsBMdbKYBs=31/05/2023 22:05:5530/05/2023 14:35:54SVCBGRfPUtYVTNzK+k7BNyTkWE0=30/05/2023 14:35:5530/05/2023 14:35:54</TimeStamp>
+        <TimeStamp>Oh3P5tdlc4nor0wpKTTaD/AX39U=06/06/2023 15:11:0305/06/2023 16:25:43PJRMh+yPl4ohLiFAlZksQRucX5w=05/06/2023 16:25:4305/06/2023 16:25:43</TimeStamp>
         <ID>
-          <String>tpi_bi</String>
+          <String>TpiBi</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
@@ -92,5 +92,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2023-06-01T01:06:42.963333Z</LastDeployed>
+  <LastDeployed>2023-06-06T18:11:39.616667Z</LastDeployed>
 </DeploymentSnapshot>
